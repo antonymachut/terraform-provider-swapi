@@ -6,8 +6,7 @@ package provider
 import (
 	"context"
 	"fmt"
-
-	"github.com/antonymachut/terraform-provider-swapi/internal/swapi"
+	"github.com/codekaio/terraform-provider-swapi/internal/swapi"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
@@ -15,7 +14,7 @@ import (
 )
 
 // Ensure provider defined types fully satisfy framework interfaces.
-var _ datasource.DataSource = &ExampleDataSource{}
+var _ datasource.DataSource = &PlanetDataSource{}
 
 func NewPlanetDataSource() datasource.DataSource {
 	return &PlanetDataSource{}
