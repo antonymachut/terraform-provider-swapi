@@ -1,3 +1,3 @@
-data "swapi_planet" "dagobah" {
-  name = "Dagobah"
+data "scaffolding_example" "example" {
+  configurable_attribute = "some-value"
 }
