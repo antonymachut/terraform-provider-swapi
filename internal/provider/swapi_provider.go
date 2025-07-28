@@ -42,7 +42,7 @@ func (p *SWAPIProvider) Schema(
         ctx context.Context,
         req provider.SchemaRequest,
         resp *provider.SchemaResponse) {
-  resp.Schema = schema.Schema{
+    resp.Schema = schema.Schema{
       Attributes: map[string]schema.Attribute{
           "endpoint": schema.StringAttribute{
               MarkdownDescription: "Endpoint to connect SWAPI.
@@ -58,6 +58,7 @@ by environement variable SWAPI_APIKEY.",
       },
   }
 }
+
 func (p *SWAPIProvider) Configure(ctx context.Context, req provider.ConfigureRequest, resp *provider.ConfigureResponse) {
 var config SWAPIProviderModel
 

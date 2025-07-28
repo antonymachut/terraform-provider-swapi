@@ -1,3 +1,5 @@
-resource "scaffolding_example" "example" {
-  configurable_attribute = "some-value"
+resource "swapi_planet" "mustafar" {
+  name = "Mustafar"
+  diameter = 4200
+  population = 1 #vader
 }

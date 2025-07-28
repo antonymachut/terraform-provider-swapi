@@ -1,1 +1,1 @@
-terraform import scaffolding_example.test "id-123"
+terraform import swapi_test.test "id-123"
