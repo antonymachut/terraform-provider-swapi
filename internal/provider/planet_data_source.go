@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/amachut-partner/terraform-provider-swapi/internal/swapi"
+	"github.com/antonymachut/terraform-provider-swapi/internal/swapi"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"

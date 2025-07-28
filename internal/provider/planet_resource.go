@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/codekaio/terraform-provider-swapi/internal/swapi"
+	"github.com/antonymachut/terraform-provider-swapi/internal/swapi"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
